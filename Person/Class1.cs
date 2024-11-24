@@ -2,7 +2,7 @@
 
 namespace Persons {
     /// <summary>
-    /// A class defining a person.
+    /// A class defining a person with a name and age.
     /// </summary>
     public class Person {
         string name;
@@ -70,8 +70,6 @@ namespace Persons {
         /// Returns a string representation of the person.
         /// </summary>
         /// <returns>A string representing the person.</returns>
-        public override string ToString() {
-            return String.Format("Person Name: {0}, Age: {1}", name, age);
-        }
+        public override string ToString() => String.Format("Person Name: {0}, Age: {1}", name, age);
     }
 }
