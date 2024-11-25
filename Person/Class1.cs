@@ -48,6 +48,7 @@ namespace Persons {
         /// </summary>
         /// <returns>The person's name</returns>
         public string getName() {
+            Console.WriteLine("Returning name {0} of object.", name);
             return name;
         }
         /// <summary>
@@ -63,6 +64,7 @@ namespace Persons {
         /// </summary>
         /// <returns>The person's age.</returns>
         public int getAge() {
+            Console.WriteLine("Returning age {0} of object.", age);
             return age;
         }
 
